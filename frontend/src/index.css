@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --aurum-gold: #FFD700;
+  --bg-dark: #0A0A0A;
+}
+
+@layer base {
+  body {
+    @apply bg-[#0A0A0A] text-slate-50 font-sans;
+  }
+}
+
+.terminal-text {
+  @apply font-mono text-[#00FF00];
+}
+
+.glass-card {
+  @apply bg-white/5 backdrop-blur-md border border-white/10 rounded-xl;
+}
+
+.gold-gradient {
+  background: linear-gradient(135deg, #FFD700 0%, #B8860B 100%);
+}

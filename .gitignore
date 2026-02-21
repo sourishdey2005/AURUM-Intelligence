@@ -1,0 +1,17 @@
+# Common exclusions
+node_modules/
+dist/
+.vite/
+.DS_Store
+
+# Python
+venv/
+__pycache__/
+*.pyc
+.env
+.pytest_cache/
+
+# Local configuration
+frontend/node_modules/
+backend/venv/
+backend/.env
